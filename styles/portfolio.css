@@ -11,8 +11,8 @@
 header,
 main {
     margin: 53px 127px 135px 100px;
-    height: 600px;
-    width: 1000px;
+    height: auto;
+    width: 100%;
 }
 
 nav,
@@ -199,6 +199,10 @@ main p {
     margin: 0 auto;
 }
 
+.choice_body {
+    margin-bottom: 25px;
+}
+
 .choice_row {
     display: flex;
     flex-direction: column;
@@ -270,9 +274,11 @@ main p {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    height: 500px;
 }
 
-.newsletter {
+.newsletter,
+.newsletter_img {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -289,21 +295,31 @@ main p {
     text-align: center;
     justify-content: center;
     display: flex;
+    gap: 20px;
+
 }
 
-footer img{
+footer img {
     height: 50px;
     width: 50px;
 }
-.footer_img ,.foot_para{
- display: flex;
- flex-direction: row;
- align-items: center;
- justify-content: center;
- gap: 20px;
- margin-top: 20px;
+
+.footer_img,
+.foot_para {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
 }
-footer{
-    height:400px;
-    
+
+footer {
+    height: 400px;
+    padding: 30px;
+
+}
+
+@media screen and (max-width:576px) {
+
 }
